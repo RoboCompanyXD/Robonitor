@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.robocompany.robonitor.ActivityMain">
+
+    <item
+        android:id="@+id/save_capture"
+        android:icon="@drawable/ic_save"
+        android:title="@string/action_save"
+        android:visible="true" />
+
+
+</menu>

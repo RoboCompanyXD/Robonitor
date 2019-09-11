@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="refresh_button">Refresh</string>
+    <string name="action_devinfo">Device Info</string>
+    <string name="activar_monitorizacion">Activar Monitorización</string>
+    <string name="reset_data">Reset data</string>
+    <string name="by_chrsitan_martin_borja_g_mez">by Chrsitan Martin &amp; Borja Gómez</string>
+    <string name="_0">0%</string>
+    <string name="_100">100%</string>
+    <string name="image_error">An error occurred while trying to get the image.</string>
+    <string name="action_save">Save capture to gallery</string>
+    <string name="image_saved">Image saved to gallery</string>
+    <string name="image_save_error">An error occurred while trying to save the image.</string>
+    <string name="connect">Connect</string>
+    <string name="cancell">Cancel</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="install_barcode">The Barcode Scanner application is not currently installed on the device which is required to scan the robot\'s QR code.</string>
+    <string name="google_play">Google Play</string>
+    <string name="qr_scann_format_error">The QR code does not have the proper format</string>
+</resources>

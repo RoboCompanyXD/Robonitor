@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.robocompany.robonitor.Activities.BioSensorMonitorActivity">
+
+    <item
+        android:id="@+id/action_capture"
+        android:icon="@drawable/ic_linked_camera"
+        android:title="@string/action_devinfo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_devinfo"
+        android:icon="@drawable/ic_action_info"
+        app:showAsAction="always"
+        android:title="@string/action_devinfo" />
+
+</menu>
