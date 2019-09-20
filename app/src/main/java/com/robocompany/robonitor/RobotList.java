@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class RobotList extends ArrayList<Robot> {
 
+    private Robot firstRobot;
     private ArrayList<Robot> rootlist;
 
     RobotList() {
@@ -45,6 +46,7 @@ public class RobotList extends ArrayList<Robot> {
         RobotList loaded = gson.fromJson(json, RobotList.class);
 
         this.rootlist = loaded;
+        if (!this.rootlist.isEmpty()) this.firstRobot = this.rootlist.get(0);
         return loaded;
 
     }

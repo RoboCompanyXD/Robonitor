@@ -39,6 +39,9 @@ import java.util.List;
 
 public class BioSensorMonitorActivity extends AppCompatActivity {
 
+	private Tab tab;
+	private Sensor sensor;
+
 	List<Tab> TabClassList = new ArrayList<Tab>();
 
 	JSONObject device;
